@@ -19,7 +19,6 @@ public class CheckingAccount extends BankAccount {
         this.setBalance(this.getServiceCharge() * this.getBalance() + this.getBalance());
     }
 
-    @Override
     public String toString() {
         return "CheckingAccount [serviceCharge=" + serviceCharge + "]" + "\n" + super.toString();
     }
